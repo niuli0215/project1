@@ -1,0 +1,47 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+  </style>
+
+
+<body>
+	<h1>Library Managemnt System</h1>
+	<p><a href="/books">Check All Books</a></p>
+
+	<p><a href="/suppliers">Check All Suppliers</a></p>
+
+	<form method="POST" action="/searchbysupplier">
+        <p>Please search by suppliers: <input type="text" name="name1"> <input type="submit" value="Search By Supplier"></p>
+        </form>
+
+	<form method="POST" action="/searchallbooks">
+        <p>Please search (in all books): <input type="text" name="name3"> <input type="submit" value="Search in all Books"></p>
+        </form>
+	
+	<form method="POST" action="/searchallpapers">
+        <p>Please search (in all papers): <input type="text" name="name2"> <input type="submit" value="Search in all Papers"></p>
+        </form>
+
+	<form method="POST" action="/editlibrarians">
+        <p>Change Librarian's Password: <input type="text" name="name4"> <input type="text" name="name5"> <input type="text" name="name6"> <input type="text" name="name7"> <input type="submit" value="Change Password"></p>
+        </form>
+	
+	<form method="POST" action="/borrowbooks">
+        <p>Borrow Readings: <input type="text" name="name8"> <input type="text" name="name9"> <input type="text" name="name10"> <input type="text" name="name11"> <input type="submit" value="Borrow Readings"></p>
+        </form>
+
+	<form method="POST" action="/returnreadings">
+        <p>Return Readings: <input type="text" name="name12"> <input type="text" name="name13"> <input type="text" name="name14"> <input type="text" name="name15"> <input type="submit" value="Return Readings"></p>
+        </form>
+
+	<form method="POST" action="/checkmyinfo">
+        <p>Check Your Information: <input type="text" name="name16"> <input type="text" name="name17"> <input type="submit" value="Check My Info"></p>
+        </form>
+
+</body>
+
+
+</html>
